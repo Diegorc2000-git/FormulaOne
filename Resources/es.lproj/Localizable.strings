@@ -1,0 +1,38 @@
+// Generic
+"nav_bar_button_cancel" = "Cancelar";
+
+// Modals
+	// Modal Error Happened
+	"modal_error_title" = "Error";
+	"modal_error_description" = "Ha ocurrido un error, intentalo de nuevo mas tarde";
+	"modal_error_button_acept" = "Aceptar";
+	// Modal Empty Fields
+	"modal_empty_fields_title" = "Error";
+	"modal_empty_fields_description" = "Debes rellenar todos los campos";
+	"modal_empty_fields_button" = "Aceptar";
+
+// TabBar
+"tab_bar_home_latest" = "Noticias";
+"tab_bar_home_video" = "Video";
+"tab_bar_home_racing" = "Carreras";
+"tab_bar_home_standing" = "Posición";
+"tab_bar_home_profile" = "Perfil";
+
+// Splash
+"splash_creator_text" = "Creador: Diego Rodriguez Casillas";
+
+// Login
+"login_button_title" = "Login";
+"signup_button_title" = "Signup";
+"login_title" = "Login";
+"email_text_field_login" = "Email";
+"password_text_field_login" = "Contraseña";
+"forgor_password_button_login" = "¿Olvidaste la contraseña?";
+"create_account_button_login" = "Crear cuenta";
+
+// Register
+"signup_title" = "Signup";
+"email_text_field_register" = "Email";
+"password_text_field_register" = "Contraseña";
+"signup_button_title" = "Signup";
+"login_button_register" = "Login";

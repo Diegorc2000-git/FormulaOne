@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Formula_1" customModuleProvider="target">
+            <connections>
+                <outlet property="iconNavBar" destination="5lw-wW-4EL" id="fmi-VL-vh9"/>
+                <outlet property="navigationBar" destination="Oof-rK-Jnc" id="0i3-yf-jap"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oof-rK-Jnc">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="110"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5lw-wW-4EL">
+                            <rect key="frame" x="157" y="40" width="100" height="70"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="8Ck-sU-Cmd"/>
+                                <constraint firstAttribute="height" constant="70" id="TLh-fT-Gq3"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="110" id="cNa-Ji-ggt"/>
+                        <constraint firstItem="5lw-wW-4EL" firstAttribute="centerX" secondItem="Oof-rK-Jnc" secondAttribute="centerX" id="hoc-ZA-YnC"/>
+                        <constraint firstItem="5lw-wW-4EL" firstAttribute="top" secondItem="Oof-rK-Jnc" secondAttribute="top" constant="40" id="lMx-VM-uua"/>
+                        <constraint firstAttribute="bottom" secondItem="5lw-wW-4EL" secondAttribute="bottom" id="qYV-tF-jXN"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemIndigoColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Oof-rK-Jnc" secondAttribute="trailing" id="6RD-d5-MkQ"/>
+                <constraint firstItem="Oof-rK-Jnc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="FvK-Bm-vmG"/>
+                <constraint firstItem="Oof-rK-Jnc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="S4e-hQ-bBk"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="119.86607142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
