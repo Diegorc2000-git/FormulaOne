@@ -8,7 +8,7 @@
 import Foundation
 
 struct LocalizedKeys {
-	
+	//HOLA
 	struct Generic {
 		static let buttonCancel = "nav_bar_button_cancel".localized // Cancel
 	}
