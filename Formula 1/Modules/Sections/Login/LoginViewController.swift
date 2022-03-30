@@ -127,12 +127,15 @@ class LoginViewController: BaseView {
 	@IBAction func forgotPasswordPressed(_ sender: Any) {
 		// TODO: Funcion recuperar contraseña
 	}
+	
 	@IBAction func createAccountPressed(_ sender: Any) {
 		setupSignInView()
 	}
+	
 	@IBAction func loginPressed(_ sender: Any) {
 		setupLoginView()
 	}
+	
 	@IBAction func signupButtonAction(_ sender: Any) {
 		if emailTextField.text == "" || passwordTextField.text == "" {
 			let alertController = UIAlertController(title: model.modalEmptyFieldsTitle,
